@@ -1,5 +1,5 @@
 {
-  "name": "atomic-design-angular",
+  "name": "atomic-design-cli",
   "version": "0.0.1",
   "description": "CLI to extends Angular CLI and create components with Atomic Design methodology.",
   "private": true,
