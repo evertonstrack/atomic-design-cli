@@ -3,7 +3,7 @@ const { prompt } = require('enquirer');
 module.exports = {
   name: 'generate',
   alias: ['g'],
-  description: 'Create new',
+  description: 'Create new component',
   run: async toolbox => {
     const {
       createComponent,

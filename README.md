@@ -15,3 +15,15 @@ In project folder:
 yarn
 yarn link
 ```
+
+## Commands
+
+- Run  `atomic generate` to init
+
+- Select component type
+
+<img src="/docs/assets/type.png" />
+
+- Insert a component name
+
+<img src="/docs/assets/name.png" />
