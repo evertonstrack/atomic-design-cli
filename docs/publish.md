@@ -18,8 +18,3 @@ $ npm test
 (if typescript, run `npm run build` here)
 $ npm publish
 ```
-
-# License
-
-MIT - see LICENSE
-
