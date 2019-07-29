@@ -1,7 +1,7 @@
 {
-  "name": "atomic-design-cli",
+  "name": "atomic",
   "version": "0.0.1",
-  "description": "CLI to extends Angular CLI and create components with Atomic Design methodology.",
+  "description": "atomic CLI",
   "private": true,
   "bin": {
     "atomic": "bin/atomic"
@@ -23,6 +23,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "enquirer": "^2.3.1",
     "gluegun": "^2.1.0"
   },
   "devDependencies": {

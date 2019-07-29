@@ -1,0 +1,16 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+<% if(props.isPage) { %>import { <%= props.componentName %>RoutingModule } from './<%= props.fileName %>-routing.module';<% } %>
+import { <%= props.componentName %>Component } from './<%= props.fileName %>.component';
+
+@NgModule({
+  declarations: [
+    <%= props.componentName %>Component
+  ],
+  imports: [
+    CommonModule,
+    <% if(props.isPage) { %><%= props.componentName %>RoutingModule,<% } %>
+  ]
+})
+export class <%= props.componentName %>Module { }

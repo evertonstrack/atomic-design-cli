@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './<%= props.fileName %>.component.html',
+  styleUrls: ['./<%= props.fileName %>.component.scss']
+})
+export class <%= props.componentName %>Component implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
