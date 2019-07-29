@@ -1,5 +1,5 @@
 # Atomic Design CLI
-CLI to extends Angular CLI and create components with Atomic Design methodology.
+CLI to create Angular components and modules with Atomic Design methodology.
 
 
 ## Pre-requirements
