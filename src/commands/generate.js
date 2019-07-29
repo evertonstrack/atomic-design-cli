@@ -2,7 +2,7 @@ const { prompt } = require('enquirer');
 
 module.exports = {
   name: 'generate',
-  alias: ['g:a'],
+  alias: ['g'],
   description: 'Create new',
   run: async toolbox => {
     const {
